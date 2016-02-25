@@ -41,12 +41,12 @@ div1{
 div2{
 	display: inline-block;
        width: 80%;
-       height:10%;
-       display: block;
+       height:8%;
+    
 	background-color: #ffffff;
 	color:#236aa9;
 	border:solid #030303;
-	padding:3%;
+
 	margin:0px auto; 
 }
 
