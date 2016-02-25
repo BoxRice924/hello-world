@@ -51,7 +51,7 @@ div2{
 
 
 nav {
-    position:relative;
+   
     width:80%;
     height:10%;
     margin:0 auto; 
@@ -75,7 +75,7 @@ ul#navigation li {
     padding:2px
     float:left;
     position:relative;		
-    
+    border-left:2px solid #030303;
 }
 
  
