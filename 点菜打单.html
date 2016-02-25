@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <h1 align="center" >常见问题-点菜打单</h1>
+<hr />
+    <title> 常见问题-点菜打单</title>
+  </head>
+
+
+
+
+<section>
+         <ol>
+         <li> <b>打印字体太小
+
+              </b>
+         </li>
+              <p>
+              解决方式：进入后台，点击打印设置，选择不同单子的字体，字号越大字体越大，如果最大或最小还无法满足客人需求时，通过Admin Tools Lite来进一步修改字体大小
+              </p>
+<hr />
+
+         <li> <b>打印单子显示语言</b>
+         </li>
+              <p>
+              解决方式：进入后台，打印机设置，选择对应的打印机，语言设置进行选择，主语言为英文，如果需要纯中文，选择第二语言并第二语言设置为Chinese，如果需要双语，则选择主语言及第二语言或第二语言及主语言（此两个选项区别为中文和英文哪个在上哪个在下）
+              </p>
+
+<hr />
+
+         <li> <b>收据打印机会在点击付款时自动打一张收据</b>
+         </li>
+              <p>
+              解决方式：进入后台，设置，Order，将Printer  Receipt Before Settle前面的对勾去掉，然后保存
+              </p>
+
+<hr />
+
+         <li> <b>打印机打印长度不够</b>
+         </li>
+              <p>
+              解决方式：进入打电脑的Devices and Printers,找到打印长度不够的打印机，点击鼠标右键，选择Printer Properties，然后点击Preferences—Advanced—Printer Size ,选择最长的80(72)X3276mm，然后进入Advanced—Printer Defaults—Advanced—Printer Size,选择最长的80(72)X3276mm，然后进入Devices Settings,将下面所有的全部选择为80(72)X3276mm
+              </p>
+  
+  <hr />
+
+         <li> <b>打印出来的单和POS上看到的单显示的Subtotal相同，但税金额不同</b>
+         </li>
+              <p>
+              解决办法：最常见的原因是客户当天改了税率影响到税金额的计算，还有可能是客户从后台菜的管理界面删除了这个张单中的某些菜，这样的话删除的菜税算为0导致总税金额变少。还有一种可能是1.5.2.5版本以前合并或分离相同的open food会导致税金额变少，这种情况升级到1.5.2.5版本即可。
+              </p>
+
+<hr />
+
+         <li> <b> POS上显示的单的金额和打印收据上不一致</b>
+         </li>
+              <p>
+              解决办法：除了29中提到的情况，还有可能是客户修改了菜价等，重新保存订单后再打印收据金额就一致了
+              </p>
+
+<hr />
+
+         <li> <b> 从Order中删菜时提示Sale item not found in combo section for order item: xxxx</b>
+         </li>
+              <p>
+              解决办法：应该是客户当天从后台Combo编辑界面删除了某个combo中的菜造成，从combo中加会这个菜就可以了
+              </p>
+
+<hr />
+
+         <li> <b>客户希望收据/打包单或者厨房单上某些信息不打印</b>
+         </li>
+              <p>
+              解决办法：如果系统设置中没有对应的设置，可以使用Admin Tool Lite将对应信息的字体修改为0
+              </p>
+              
+           
+              
+         </ol>
+  </section>
+
+</html>
