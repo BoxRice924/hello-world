@@ -52,7 +52,7 @@ div2{
 
 nav {
     margin:0px auto;
-    position:relative;
+    position:block;
     width:96%;
     height:18%;
     margin-top:5px;
