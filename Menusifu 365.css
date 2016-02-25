@@ -65,6 +65,7 @@ ul#navigation {
     margin:0px auto;
     position:relative;
     float:right;
+    text-align: center;
     border:2px solid #030303;
     position:relative;
 }
