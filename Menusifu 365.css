@@ -53,7 +53,7 @@ div2{
 nav {
     margin:0px auto;
     position:block;
-    width:60%;
+    width:80%;
     height:10%;
     text-align: center;
 }
@@ -67,7 +67,7 @@ ul#navigation {
 
 
 ul#navigation li {
-    width:30%;
+
     height:10%;
     display:inline;
     font-size:40px;
