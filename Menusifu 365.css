@@ -43,9 +43,10 @@ div2{
     width:90%;
 	height:3%;
 	border:solid #030303;
-	padding: 1px;
-	margin-left: 2px;
-	margin-bottom:3%;
+	padding-left: 1px;
+	padding-top:3px;
+	margin-left: 5%;
+	margin-bottom:1%;
 	margin-top:1px;
 }
 
