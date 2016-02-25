@@ -51,7 +51,7 @@ div2{
 
 
 nav {
-   
+    position:relative;
     width:80%;
     height:10%;
     margin:0 auto; 
