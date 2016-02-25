@@ -35,12 +35,22 @@ div1{
 	
 }
 
+div3{
+        
+         width:84%;
+         height:10%;
+         
+         margin:0 auto; 
+
+}
+
+
 div2{
-        display: inline-block;
+        display: float left;
 	background-color: #ffffff;
 	color:#236aa9;
     
-        width:25%;
+        width:28%;
 	height:10%;
 	border:solid #030303;
 	padding-left:1%;
