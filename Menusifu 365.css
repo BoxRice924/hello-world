@@ -43,11 +43,11 @@ div2{
 	background-color: #ffffff;
 	color:#236aa9;
     
-        width:40%;
+        width:50%;
 	height:20%;
 	border:solid #030303;
-	padding: 3%;
-	margin:3%; 
+	padding:3%;
+	margin:0px auto; 
 }
 
 
