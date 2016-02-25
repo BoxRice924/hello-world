@@ -50,21 +50,27 @@ div2{
 	margin: 0px auto;
 }
 
-
 nav {
     margin:0px auto;
     position:relative;
-    width:80%;
-    height:10%;
+    width:96%;
+    height:18%;
     margin-top:10px;
     padding:10px;
     text-align: center;
 }
 
-
+ul#navigation {
+    margin:0px auto;
+    position:relative;
+    text-align: center;
+    border:2px solid #ffffff;
+}
 
 
 ul#navigation li {
+    width:25%;
+    height:10%;
     display:inline;
     font-size:40px;
     font-weight:bold;
