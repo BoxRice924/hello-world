@@ -71,8 +71,7 @@ ul#navigation li {
     display:inline;
     font-size:40px;
     font-weight:bold;
-    margin:2px;
-    padding:2px;
+  
     float:left;
     position:relative;		
     border-left:2px solid #030303;
