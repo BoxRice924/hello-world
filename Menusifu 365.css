@@ -65,17 +65,15 @@ nav {
 ul#navigation {
     margin:0px auto;
     position:relative;
-    float:right;
     text-align: center;
     border:2px solid #030303;
-    position:relative;
 }
 
 ul#navigation li {
     display:inline;
     font-size:40px;
     font-weight:bold;
-    margin:2px;
+    margin:0px;
     padding:1px
     float:left;
     position:relative;		
