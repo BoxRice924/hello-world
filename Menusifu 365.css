@@ -42,6 +42,7 @@ div2{
 	display: inline-block;
        width: 80%;
        height:8%;
+       display: block;
 	background-color: #ffffff;
 	color:#236aa9;
 	border:solid #030303;
