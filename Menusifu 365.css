@@ -36,14 +36,15 @@ div1{
 }
 
 div2{
-
+        display: inline-block;
 	background-color: #ffffff;
 	color:#236aa9;
     
         width:30%;
 	height:10%;
 	border:solid #030303;
-	padding: 5px;
+	padding: 40%;
+	
 	margin-bottom:5%;
 	margin-top:1px;
 }
