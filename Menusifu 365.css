@@ -51,7 +51,8 @@ div2{
 
 nav {
     position:relative;
-    width:620px;
+    width:70%;
+    height:10%;
     margin:0 auto; 
     margin-top:50px;
     padding:10px;
@@ -61,20 +62,20 @@ ul#navigation {
     margin:0px auto;
     position:relative;
     float:left;
-    border-left:1px solid #c4dbe7;
-    border-right:1px solid #c4dbe7;
+    border-left:3px solid #030303;
+    border-right:1px solid #030303;
 }
 
 ul#navigation li {
     display:inline;
-    font-size:12px;
+    font-size:40px;
     font-weight:bold;
     margin:0;
     padding:0;
     float:left;
     position:relative;		
-    border-top:1px solid #c4dbe7;
-    border-bottom:2px solid #c4dbe7;
+    border-top:1px solid #030303;
+    border-bottom:2px solid #030303;
 }
 
  
