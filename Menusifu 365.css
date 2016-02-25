@@ -35,14 +35,7 @@ div1{
 	
 }
 
-div3{
-        
-         width:84%;
-         height:10%;
-         
-         margin:0 auto; 
 
-}
 
 
 div2{
@@ -54,9 +47,7 @@ div2{
 	height:10%;
 	border:solid #030303;
 	padding-left:1%;
-	
-	margin-bottom:1%;
-	margin-top:1%;
+	margin:0 auto; 
 }
 
 
