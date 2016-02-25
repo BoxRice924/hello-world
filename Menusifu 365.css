@@ -39,6 +39,7 @@ div1{
 
 
 div2{
+	position:relative;
 	display: inline-block;
        width: 80%;
        height:8%;
@@ -51,6 +52,7 @@ div2{
 
 
 nav {
+    margin:0px auto;
     position:relative;
     width:80%;
     height:10%;
