@@ -39,7 +39,19 @@ div1{
 
 
 div2{
-        display: float left;
+        display: inline block;
+	background-color: #ffffff;
+	color:#236aa9;
+    
+        width:28%;
+	height:10%;
+	border:solid #030303;
+	padding-left:1%;
+	margin:0 auto; 
+}
+
+div3{
+        display: left float;
 	background-color: #ffffff;
 	color:#236aa9;
     
