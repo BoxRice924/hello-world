@@ -63,6 +63,8 @@ nav {
 ul#navigation {
     margin:0px auto;
     position:relative;
+    width:96%;
+    height:18%;
     text-align: center;
     border-left:2px solid #030303;
     border-right:2px solid #030303;
@@ -79,6 +81,8 @@ ul#navigation li {
     padding:1px
     float:left;
     position:relative;		
+    padding-top:3px;
+    padding-bottom: 3px;
     border-top:2px solid #030303;
     border-bottom:2px solid #030303;
 }
