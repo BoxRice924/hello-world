@@ -39,6 +39,7 @@ div1{
 
 
 div2{
+	display: inline-block;
        width: 80%;
        height:15%;
        display: block;
