@@ -49,6 +49,13 @@ div2{
 	margin: 0px auto;
 }
 
+nav {
+    position:relative;
+    width:620px;
+    margin:0 auto; 
+    margin-top:50px;
+    padding:10px;
+}
 
 
 
