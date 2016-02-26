@@ -50,6 +50,18 @@ div2{
 	margin: 0px auto;
 }
 
+div3{
+	margin:0px auto;
+	display: inline-block;
+       width: 25%;
+       height:8%;
+       display: block;
+	background-color: #ffffff;
+	color:#236aa9;
+	border:solid #030303;
+	margin: 0px auto;
+}
+
 nav {
     margin:0px auto;
     
