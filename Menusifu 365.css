@@ -99,6 +99,7 @@ table{
 }
 
   th {
+    margin:0px auto;
     height: 50px;
     text-align: center;
 }
