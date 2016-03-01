@@ -96,6 +96,10 @@ table{
         width: 80%;
         height: 8%;
       margin-bottom:3%;
+      a:active { 
+color:#FFFFFF; 
+text-decoration:none; 
+} 
 }
 
   tr {
