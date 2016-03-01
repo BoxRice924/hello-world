@@ -109,7 +109,7 @@ td{
     color:#030303;
 }
 
-a:active { 
+#td a:active { 
                  background-color:#236aa9;
                  color:#FFFFFF; 
                  text-decoration:none; 
