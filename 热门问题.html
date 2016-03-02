@@ -5,10 +5,19 @@
   <title> Menusifu 365 常见问题 </title>
 
    <table border="1">
+   
+ <script type="text/javascript">
+  $(function(){
+    $("#menu td").click(function(){
+        $(this).addClass("bg").siblings().removeClass("bg");
+	})
+  })
+
+</script>
    <tr>
-   <td><a href="热门问题.html">热门问题</td>
-   <td><a href="硬件相关.html">硬件相关</td>
-   <td><a href="index.html">软件问题</td>
+   <td id="menu"><a href="热门问题.html">热门问题</td>
+   <td id="menu"><a href="硬件相关.html">硬件相关</td>
+   <td id="menu"><a href="index.html">软件问题</td>
   </tr>
   
   </table>
