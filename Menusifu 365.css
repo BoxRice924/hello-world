@@ -107,6 +107,7 @@ table{
 
 td{
     color:#030303;
+    background color:#000000;
 }
 
 
@@ -122,10 +123,4 @@ body{
 
 a{ 
      text-decoration:none; }
-     
-#td a:active { 
-                 background-color:#236aa9;
-                 color:#FFFFFF; 
-                 text-decoration:none; 
-               } 
 
