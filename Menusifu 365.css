@@ -142,7 +142,7 @@ a:-webkit-any-link {
     cursor: auto;}
 
 a.Menu:{
-    Color:#030303;	
+    color:#030303;	
     transition: color 2s;
     -moz-transition: color 2s;
     -webkit-transition: color 2s;
