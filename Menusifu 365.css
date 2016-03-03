@@ -13,6 +13,15 @@ p
   text-align:center;
 }
 
+.picon
+{
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+
 img
 {	
 	display: inline-block;
@@ -25,7 +34,7 @@ img
 .imgicon{
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 18%;
     left: 18%;
 }
 
