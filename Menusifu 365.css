@@ -13,22 +13,21 @@ p
   text-align:center;
 }
 
-.imgicon
-{
-display: inline-block;
-    padding-top: 20%;
-    padding-left: 30%;	
-}
-
 img
-{
-	display: inline-block;
+{	display: inline-block;
 	width:50%;
 	height:50%; 
     padding-top: 15%;
     padding-left: 22%;
 }
 
+.imgicon
+{
+display: inline-block;
+
+    padding-top: 20%;
+    padding-left: 30%;	
+}
 
 div1{
 	margin:0px auto;
