@@ -115,6 +115,8 @@ td{
     background color:#000000;
     transition-property:color,background;
     transition-duration:5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
 }
 
 td:active{
