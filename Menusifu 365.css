@@ -141,6 +141,15 @@ a:-webkit-any-link {
     text-decoration: none;
     cursor: auto;}
 
+a.Menu:{
+    Color:#030303;	
+    transition: color 2s;
+    -moz-transition: color 2s;
+    -webkit-transition: color 2s;
+    -o-transition: color 2s;
+    transition-timing-function: linear;
+}
+
 a.Menu:active{
 	color:#ffffff;
 }
