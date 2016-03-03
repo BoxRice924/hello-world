@@ -121,6 +121,11 @@ color:#ffffff;
 background-color:#236aa9;
 }
 
+a:-webkit-any-link {
+    background-color:#236aa9 ;
+    text-decoration:none;
+    cursor: auto;
+}
 
 body{
      color: #000000;
