@@ -14,15 +14,23 @@ p
 }
 
 img
-{	display: inline-block;
+{	
+	display: inline-block;
 	width:50%;
 	height:50%; 
     padding-top: 15%;
     padding-left: 22%;
 }
 
+.imgicon{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
 
-div1{
+.divmenu{
+	position:relative;
 	margin:0px auto;
 	display: inline-block;
 	background-color: #236aa9;
