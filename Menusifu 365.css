@@ -127,6 +127,6 @@ a:-webkit-any-link {
     text-decoration: none;
     cursor: auto;}
 
-#choosen td:{
+td.Menu#class:{
 	color:#ffffff;
 }
