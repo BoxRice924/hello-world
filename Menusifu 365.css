@@ -128,5 +128,12 @@ a:-webkit-any-link {
     cursor: auto;}
 
 a.choosen:{
-	color:#ffffff;
+	transition: color 2s;
+-moz-transition: color 2s;	/* Firefox 4 */
+-webkit-transition: color 2s;	/* Safari 和 Chrome */
+-o-transition: color;
+}
+
+a.choosen.visited:{
+   color:#ffffff;	
 }
