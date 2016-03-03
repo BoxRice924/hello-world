@@ -127,14 +127,3 @@ a:-webkit-any-link {
     text-decoration: none;
     cursor: auto;}
 
-a:link{
-	color:red;
-}
-
-a:visited{
-   color:#ffffff;	
-}
-
-a{
-   color:#030303;	
-}
