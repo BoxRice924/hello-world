@@ -110,19 +110,7 @@ table{
     text-align: center;
 }
 
-td{
-    color:#030303;
-    transition: color 2s, background 2s;
-    -moz-transition: color 2s, background 2s;
-    -webkit-transition: color 2s, background 2s;
-    -o-transition: color 2s, background 2s;
-    transition-timing-function: linear;
-}
 
-td:active{
-color:#ffffff;
-background-color:#236aa9;
-}
 
 
 body{
