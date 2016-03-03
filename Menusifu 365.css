@@ -116,12 +116,13 @@ td{
     transition-property:color,background;
 }
 
-td:active{
+.Menu:active{
 color:#ffffff;
 background-color:#236aa9;
+transition-duration:5s;
 }
 
-a:-webkit-any-link {
+.Menu:-webkit-any-link {
     text-decoration:none;
     cursor: auto;
 }
@@ -135,6 +136,6 @@ body{
     
 }
 
-a{ 
+.Menu{ 
      text-decoration:none; }
 
