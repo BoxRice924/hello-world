@@ -113,10 +113,12 @@ table{
 td{
     color:#030303;
     background color:#000000;
-    transition-property:color,background;
-    transition-duration:5s;
+    transition-property:,;
+    transition: color 2s, background 2s;
+    -moz-transition: color 2s, background 2s;
+    -webkit-transition: color 2s, background 2s;
+    -o-transition: color 2s, background 2s;
     transition-timing-function: linear;
-    transition-delay: 2s;
 }
 
 td:active{
