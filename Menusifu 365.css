@@ -137,7 +137,7 @@ body{
 }
 
 a:-webkit-any-link {
-    color: #030303;
+    color: none;
     text-decoration: none;
     cursor: auto;}
 
