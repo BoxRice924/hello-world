@@ -114,12 +114,12 @@ td{
     color:#030303;
     background color:#000000;
     transition-property:color,background;
+    transition-duration:5s;
 }
 
 td:active{
 color:#ffffff;
 background-color:#236aa9;
-transition-duration:5s;
 }
 
 
@@ -133,7 +133,7 @@ body{
 }
 
 a:-webkit-any-link {
-    color: none;
+    color: #030303;
     text-decoration: none;
     cursor: auto;}
 
