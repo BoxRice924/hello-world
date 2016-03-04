@@ -31,6 +31,14 @@ p
     left: 23%;
 }
 
+.piconhardwarerow1 {
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 31%;
+}
+
 img
 {	
 	display: inline-block;
