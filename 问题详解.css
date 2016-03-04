@@ -14,7 +14,7 @@ color:#030303;
   visibility:hidden;
 }
 
-li.questiontitle:active>.content{
+.questiontitle:active>.content{
   visibility:visible;
 }
 
