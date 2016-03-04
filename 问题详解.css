@@ -14,7 +14,9 @@ color:#030303;
   visibility:hidden;
 }
 
-.questiontitle:active>.content{
+.questiontitle:active>p1
+{
+  display:none;
   visibility:visible;
 }
 
