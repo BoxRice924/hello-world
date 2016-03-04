@@ -9,6 +9,14 @@ font-size:200%;
 color:#030303;
 }
 
+.content{
+  display:none;
+  visibility:hidden;
+}
+
+.questiontitle:active>.content{
+  visibility:visible;
+}
 
 
 ol
