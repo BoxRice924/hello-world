@@ -34,6 +34,11 @@ ol
     display: table-row;
 }
 
+body
+{
+  font-size:100%;
+}
+
 Section
 {
  font-size:12px; 
