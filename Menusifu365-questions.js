@@ -1,12 +1,11 @@
 
-function openMe(){
-  x=document.getElementById("content");
+
+function opencloseMe(){
+  if (document.getElementById("content").style.display = "none";)
+  {x=document.getElementById("content");
   x.className="open";
 }
-
-function closeMe(){
-  x=document.getElementById("content");
-  x.className="closed";
+else
+{ x=document.getElementById("content");
+  x.className="closed";}
 }
-
-
