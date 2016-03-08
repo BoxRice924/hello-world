@@ -16,8 +16,7 @@ p
 #content
 {
  font-size: 50%;
- position:relative;
- left:2%;
+ text-align:left;
 }
 
 .picon
