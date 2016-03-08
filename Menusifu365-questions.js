@@ -1,7 +1,7 @@
 
 function openMe(){
   x=document.getElementById("content");
-  x.className="Open";
+  x.className="open";
 }
 
 function closeMe(){
