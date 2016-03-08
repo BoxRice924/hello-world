@@ -1,10 +1,19 @@
 
-function closeMe(){
-  x=document.getElementById("CloseContent");
-  x.className="closed";
-}
+
 
 function openMe(){
   x=document.getElementById("questions");
   x.className="Open";
+}
+
+function openMe(){
+  ('#questions').click(function(){
+    if(('#content').is(':hidden'))
+        {
+          ('#content').slideDown('slow');  
+          (this).text('收起');
+        }else{
+          ('#d2').slideUp('slow');
+          (this).text('展开');  
+            }
 }
