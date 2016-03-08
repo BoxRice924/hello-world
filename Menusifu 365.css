@@ -21,7 +21,7 @@ p
  
 }
 
-.picon
+#picon
 {
     font-size: 150%;
     text-align: center;
@@ -30,14 +30,6 @@ p
     left: 25%;
 }
 
-.picon
-{
-    font-size: 150%;
-    text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 25%;
-}
 
 .piconhardware
 {
