@@ -8,5 +8,8 @@ function openMe(){
 function closeMe(){
   x=document.getElementById("content");
   x.className="closed";
+  x=document.getElementById("hideContent");
+  x.className="closed";
 }
+
 
