@@ -16,23 +16,6 @@ head{
     left: 25%;
 }
 
-p
-{
-  font-size: 150%;
-  text-align:center;
-}
-
-#content
-{
- font-size: 50%;
- text-align:left;
-}
- 
-}
-
-
-
-
 .piconhardware
 {
     font-size: 150%;
@@ -57,6 +40,25 @@ p
     top: 68%;
     left: 38%;
 }
+
+p
+{
+  font-size: 150%;
+  text-align:center;
+}
+
+#content
+{
+ font-size: 50%;
+ text-align:left;
+}
+ 
+}
+
+
+
+
+
 
 img
 {	
