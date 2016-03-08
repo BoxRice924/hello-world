@@ -6,6 +6,6 @@ function openMe(){
 
 function closeMe(){
   x=document.getElementById("content");
-  x.className="Close";
+  x.className="closed";
 }
 
