@@ -13,6 +13,13 @@ p
   text-align:center;
 }
 
+.content
+{
+ font-size: 50%;
+ position:relative;
+ left:2%;
+}
+
 .picon
 {
     font-size: 150%;
