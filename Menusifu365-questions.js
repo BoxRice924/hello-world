@@ -1,6 +1,6 @@
 
  function opencloseMe(){
- if (document.getElementsByClassName("content").style.display="none")
+ if (document.getElementsByClassName("content").style.display=="none")
  {x=document.getElementsByClassName("content");
  x.className="open";}
   else
