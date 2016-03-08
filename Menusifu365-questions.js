@@ -8,6 +8,6 @@ function openMe(){
 function closeMe(){
   x=document.getElementById("content");
   x.className="closed";
-
+  #CloseContent="closed";
 }
 
