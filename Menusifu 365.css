@@ -19,6 +19,12 @@ p
  text-align:left;
 }
 
+#CloseContent
+{
+ font-size: 50%;
+ text-align:left;	
+}
+
 .picon
 {
     font-size: 150%;
@@ -170,4 +176,10 @@ a:-webkit-any-link {
     text-decoration: none;
     cursor: auto;}
 
+.closed{
+display:none;	
+}
 
+.open{
+display:block;	
+}
