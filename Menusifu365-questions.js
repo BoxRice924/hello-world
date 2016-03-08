@@ -1,6 +1,6 @@
 
 function openMe(){
-  x=document.getElementById("questions");
+  x=document.getElementById("content");
   x.className="Open";
 }
 
