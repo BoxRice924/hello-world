@@ -7,4 +7,5 @@ function opencloseMe(){
 }
 else
 { x=document.getElementById("content");
-  x.className="closed";}
+  x.className="closed"};
+}
