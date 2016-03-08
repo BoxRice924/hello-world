@@ -1,10 +1,6 @@
 
 
 
-function openMe(){
-  x=document.getElementById("questions");
-  x.className="Open";
-}
 
 function openMe(){
   ('#questions').click(function(){
