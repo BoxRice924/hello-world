@@ -7,3 +7,4 @@
  { x=document.getElementById("content");
    x.className="closed"};
   }
+
