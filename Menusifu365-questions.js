@@ -8,3 +8,8 @@
    x.className="closed"};
   }
 
+
+function closeMe(){
+    x=document.getElementById("content");
+    x.className="closed";
+  }
