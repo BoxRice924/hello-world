@@ -1,15 +1,15 @@
 
  function opencloseMe(){
- if (document.getElementById("content").style.display = "none")
- {x=document.getElementById("content");
+ if (document.getElementsByClassName("content").style.display = "none")
+ {x=document.getElementsByClassName("content");
  x.className="open";}
   else
- { x=document.getElementById("content");
+ { x=document.getElementsByClassName("content");
    x.className="closed"};
   }
 
 
 function closeMe(){
-    x=document.getElementById("content");
+    x=document.getElementsByClassName("content");
     x.className="closed";
   }
