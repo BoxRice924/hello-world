@@ -17,13 +17,14 @@ p
 {
  font-size: 50%;
  text-align:left;
- display:none;
+
 }
 
 #CloseContent
 {
  font-size: 50%;
- text-align:left;	
+ text-align:left;
+ display:none;
 }
 
 .picon
