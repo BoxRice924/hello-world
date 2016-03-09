@@ -1,10 +1,16 @@
- function openMe(){
-    x=document.getElementsByClassName("content");
-    x.className="open";
-  }
+function opencloseMe(){
 
+ if (document.getElementsByClassName("content").style.display == "none")
+ {x=document.getElementsByClassName("content");
+   x.className="open";}
+    else
 
-function closeMe(){
-    x=document.getElementsByClassName("content");
-    x.className="closed";
-  }
+ { x=document.getElementsByClassName("content");
+     x.className="closed"};
+    }
+  
+  
+  function closeMe(){
+ x=document.getElementsByClassName("content");
+      x.className="closed";
+    }
