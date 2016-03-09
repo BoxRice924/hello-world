@@ -1,5 +1,6 @@
 <html>
     <link rel="stylesheet" href="问题详解.css">
+    <link rel="stylesheet" href="Menusifu 365.css"> 
 
   <head>
     <meta charset="utf-8">
@@ -8,23 +9,33 @@
     <title> 常见问题-触摸屏</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
          <ol>
-         <li> <b>分体机触摸屏无反应
+         <li id="questions_1" class="questiontitle"> <b>分体机触摸屏无反应
 
               </b>
          </li>
-              <p>解决方式：首先检查显示器的TOUCH口是否有接USB线到主机，其次，检查是否有安装TOUCH驱动
+              <p id="content_1" class="content">解决方式：首先检查显示器的TOUCH口是否有接USB线到主机，其次，检查是否有安装TOUCH驱动
            
               </p>
 <hr />
 
-         <li> <b>触摸屏定位不准确</b>
+         <li id="questions_2" class="questiontitle"> <b>触摸屏定位不准确</b>
          </li>
-              <p>解决方式：请使用触摸屏自带校准软件进行校准。
+              <p id="content_2" class="content">解决方式：请使用触摸屏自带校准软件进行校准。
               </p>
 
 
