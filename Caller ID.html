@@ -1,5 +1,7 @@
 <html>
     <link rel="stylesheet" href="问题详解.css">
+    <link rel="stylesheet" href="Menusifu 365.css">
+
   <head>
     <meta charset="utf-8">
     <h1 align="center" >常见问题-Caller ID</h1>
@@ -7,15 +9,26 @@
     <title> 常见问题-Caller ID</title>
   </head>
   
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
+
 <section>
          <ol>
-         <li> <b>Caller ID不显示号码
+         <li id="questions_1" class="questiontitle"> <b>Caller ID不显示号码
 
               </b>
          </li>
-              <p>解决方式：首先检查Caller ID接线是否正确，其次，检查是否安装了Caller ID驱动，然后检查是否设置正确
-           
-              </p>
+              <p id="content_1" class="content">解决方式：首先检查Caller ID接线是否正确，其次，检查是否安装了Caller ID驱动，然后检查是否设置正确</p>
 <hr />
 
          </ol>
