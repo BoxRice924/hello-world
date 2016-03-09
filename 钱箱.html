@@ -1,5 +1,6 @@
 <html>
     <link rel="stylesheet" href="问题详解.css">
+    <link rel="stylesheet" href="Menusifu 365.css"> 
 
   <head>
     <meta charset="utf-8">
@@ -8,18 +9,28 @@
     <title> 常见问题-钱箱</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
         <ol> 
-         <li> <b>钱箱打不开
+         <li id="questions_1" class="questiontitle"> <b>钱箱打不开
 
               </b>
          
        
          </li>
-              <p>
+              <p id="content_1" class="content">
                   解决方式：首先确定钱箱钥匙是否打开，其次确定钱箱线是否插在了收据打印机后面的钱箱口，钱箱口紧挨着打印机电源边上的黑色口，如果连接正确还无法打开，请检查收据打印机打单是否正常，如果仍无法解决，请检查电脑后台的打印机设置内，钱箱的设置是否正确
 
            
@@ -33,3 +44,4 @@
   </section>
 
 </html>
+
