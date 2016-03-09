@@ -43,19 +43,17 @@ head{
 
 p
 {
-  font-size: 150%;
+  font-size: 200%;
   text-align:center;
 }
 
 .content
 {
- font-size: 50%;
+ font-size: 80%;
  text-align:left;
+ display:none;
 }
  
-
-
-
 
 
 
@@ -175,11 +173,3 @@ a:-webkit-any-link {
     color: #030303;
     text-decoration: none;
     cursor: auto;}
-
-.closed{
-display:none;	
-}
-
-.open{
-display:block;	
-}
