@@ -1,5 +1,6 @@
 <html>
     <link rel="stylesheet" href="问题详解.css">
+    <link rel="stylesheet" href="Menusifu 365.css"> 
 
   <head>
     <meta charset="utf-8">
@@ -8,23 +9,33 @@
     <title> 常见问题-选桌相关</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
          <ol>
-         <li> <b>堂吃无法进入
+         <li id="questions_1" class="questiontitle"> <b>堂吃无法进入
 
               </b>
          </li>
-              <p>解决方式：进入后台加好桌子或者选择跳过选择桌
+              <p id="content_1" class="content">解决方式：进入后台加好桌子或者选择跳过选择桌
            
               </p>
 <hr />
 
-         <li> <b>堂吃进入后看不到菜单</b>
+         <li id="questions_2" class="questiontitle"> <b>堂吃进入后看不到菜单</b>
          </li>
-              <p>解决方式：如果只有堂吃看不到菜单，进入后台，然后检查菜单组的适用时间，确定要在适用时间范围内。
+              <p id="content_2" class="content">解决方式：如果只有堂吃看不到菜单，进入后台，然后检查菜单组的适用时间，确定要在适用时间范围内。
               </p>
 
 
