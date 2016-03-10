@@ -1,5 +1,5 @@
 <html>
-  
+    <link rel="stylesheet" href="Menusifu 365.css"> 
     <link rel="stylesheet" href="问题详解.css">
 
   <head>
@@ -9,45 +9,52 @@
     <title> 常见问题-软件入口</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
          <ol>
-         <li> <b>所有弹出按钮字体变得很小，如送厨、打单、大、中、小等按钮
+         <li id="questions_1" class="questiontitle"> <b>所有弹出按钮字体变得很小，如送厨、打单、大、中、小等按钮
               </b>
          </li>
-              <p>解决方式：将浏览器缩放还原到100%，也可以按住Ctrl键，滑动鼠标滚轮，直到缩放100%</p>
+              <p id="content_1" class="content">解决方式：将浏览器缩放还原到100%，也可以按住Ctrl键，滑动鼠标滚轮，直到缩放100%</p>
 <hr />
 
-         <li> <b>Online Order不能在电脑上付款，弹出Online Order Server 没有启动提示入</b></li>
-              <p>解决方式：首先检查分机和主机的IP是否在同一网段，其次，分机是否可以PING通主机，检查主机和分机的防火墙是否全部关闭（注意：防火墙进入高级选项，里面的网络防火墙是否关闭），检查主机和分机的启动设置是否一致，分机学习到的主机IP是否正确，同一网络内是否存在多个主机。</p>
+         <li id="questions_2" class="questiontitle"> <b>Online Order不能在电脑上付款，弹出Online Order Server 没有启动提示入</b></li>
+              <p id="content_2" class="content">解决方式：首先检查分机和主机的IP是否在同一网段，其次，分机是否可以PING通主机，检查主机和分机的防火墙是否全部关闭（注意：防火墙进入高级选项，里面的网络防火墙是否关闭），检查主机和分机的启动设置是否一致，分机学习到的主机IP是否正确，同一网络内是否存在多个主机。</p>
 <hr />
 
-         <li> <b>Delivery无法显示地图</b>
+         <li id="questions_3" class="questiontitle"> <b>Delivery无法显示地图</b>
          </li>  
-              <p>解决方式：首先检查客人电脑是否可以上网，然后登录Menusifu API网站检查客人是否设置了Maps Key和坐标（Maps Key申请方式：首先需要一个Gmail邮箱，登录邮箱，然后进入：https://console.developers.google.com/apis，找到Google Maps JavaScript API，然后选择Credentials--NewCredentials--API KEY--Server Key，输入一个Name后就可以生产一个Key）</p>   
+              <p id="content_3" class="content">解决方式：首先检查客人电脑是否可以上网，然后登录Menusifu API网站检查客人是否设置了Maps Key和坐标（Maps Key申请方式：首先需要一个Gmail邮箱，登录邮箱，然后进入：https://console.developers.google.com/apis，找到Google Maps JavaScript API，然后选择Credentials--NewCredentials--API KEY--Server Key，输入一个Name后就可以生产一个Key）</p>   
 <hr />
 
-         <li> <b> online order 无法递交订单</b>
+         <li id="questions_4" class="questiontitle"> <b> online order 无法递交订单</b>
          </li>  
-              <p>解决方式：重启一下主机的menusifu系统，启动完成后告诉客人返回重新递交订单即可。</p>   
+              <p id="content_4" class="content">解决方式：重启一下主机的menusifu系统，启动完成后告诉客人返回重新递交订单即可。</p>   
 <hr />
 
-         <li> <b> 送厨时提示失败，提示的原因为Incorrect menu setup</b>
+         <li id="questions_5" class="questiontitle"> <b> 送厨时提示失败，提示的原因为Incorrect menu setup</b>
          </li>  
-              <p>解决办法：查看后台菜的设置，有某些菜勾选了Send to kitchen required，但没有选择任何打印机</p>   
+              <p id="content_5" class="content">解决办法：查看后台菜的设置，有某些菜勾选了Send to kitchen required，但没有选择任何打印机</p>   
 <hr />
 
-         <li> <b>做任何操作时都提示错误，提示的原因为could not execute statement: SQL, nested exception is org.hibernate.exception.LockTimeoutException</b>
+         <li id="questions_6" class="questiontitle"> <b>做任何操作时都提示错误，提示的原因为could not execute statement: SQL, nested exception is org.hibernate.exception.LockTimeoutException</b>
          </li>  
-              <p>解决办法：这个问题比较少见，原因是数据库死锁了，重新启动Windows就可以了</p>                 
+              <p id="content_6" class="content">解决办法：这个问题比较少见，原因是数据库死锁了，重新启动Windows就可以了</p>                 
               
 <hr />
 
-         <li> <b>做任何操作时都提示错误，提示的原因为could not execute statement: SQL, nested exception is org.hibernate.exception.LockTimeoutException</b>
-         </li>  
-              <p>解决办法：这个问题比较少见，原因是数据库死锁了，重新启动Windows就可以了</p> 
               
          </ol>
   </section>
