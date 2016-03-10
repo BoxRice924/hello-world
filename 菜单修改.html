@@ -1,5 +1,7 @@
 <html>
+    <link rel="stylesheet" href="Menusifu 365.css"> 
     <link rel="stylesheet" href="问题详解.css">
+
 
   <head>
     <meta charset="utf-8">
@@ -8,32 +10,42 @@
     <title> 常见问题-菜单修改</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
          <ol>
-         <li> <b>软件进入后看不到任何菜单
+         <li id="questions_1" class="questiontitle"> <b>软件进入后看不到任何菜单
               </b>
-         </li>
-              <p>解决方式：主机：首先退出软件，回到桌面，然后将右下角的Menusifu服务器关闭，然后重新运行。分机：检查分机和主机之间的网络是否通。</p>
+         </li >
+              <p id="content_1" class="content">解决方式：主机：首先退出软件，回到桌面，然后将右下角的Menusifu服务器关闭，然后重新运行。分机：检查分机和主机之间的网络是否通。</p>
 <hr />
 
-         <li> <b>从Order中删菜时提示Sale item not found in combo section for order item: xxxx</b>
+         <li id="questions_2" class="questiontitle"> <b>从Order中删菜时提示Sale item not found in combo section for order item: xxxx</b>
          </li>
-              <p>解决办法：应该是客户当天从后台Combo编辑界面删除了某个combo中的菜造成，从combo中加会这个菜就可以了</p>
-
-<hr />
-
-         <li> <b>送厨时提示失败，提示的原因为Incorrect menu setup</b>
-         </li>
-              <p>解决办法：查看后台菜的设置，有某些菜勾选了Send to kitchen required，但没有选择任何打印机</p>
+              <p id="content_2" class="content">解决办法：应该是客户当天从后台Combo编辑界面删除了某个combo中的菜造成，从combo中加会这个菜就可以了</p>
 
 <hr />
 
-         <li> <b>IPAD不显示菜单</b>
+         <li id="questions_3" class="questiontitle"> <b>送厨时提示失败，提示的原因为Incorrect menu setup</b>
          </li>
-              <p>解决方式：首先检查不显示的菜单是不是超过菜单设置的适用时间段，其次检查IPAD后台是否开启了按时间显示菜单，然后检查电脑后台—设置—IPAD，检查是否勾选了按时间显示菜单</p>
+              <p id="content_3" class="content">解决办法：查看后台菜的设置，有某些菜勾选了Send to kitchen required，但没有选择任何打印机</p>
+
+<hr />
+
+         <li id="questions_4" class="questiontitle"> <b>IPAD不显示菜单</b>
+         </li>
+              <p id="content_4" class="content">解决方式：首先检查不显示的菜单是不是超过菜单设置的适用时间段，其次检查IPAD后台是否开启了按时间显示菜单，然后检查电脑后台—设置—IPAD，检查是否勾选了按时间显示菜单</p>
 
          </ol>
   </section>
