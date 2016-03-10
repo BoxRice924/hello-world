@@ -49,12 +49,18 @@ p
 
 .content
 {
- font-size: 80%;
+ font-size: 20px;
  text-align:left;
  display:none;
+word-wrap: break-word; 
+word-break: normal; 
 }
  
-
+.questiontitle
+{
+word-wrap: break-word; 
+word-break: normal; 
+}
 
 
 img
