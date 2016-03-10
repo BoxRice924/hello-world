@@ -1,6 +1,8 @@
 <html>
   
+    <link rel="stylesheet" href="Menusifu 365.css"> 
     <link rel="stylesheet" href="问题详解.css">
+
 
   <head>
     <meta charset="utf-8">
@@ -9,61 +11,71 @@
     <title> 常见问题-后台设置</title>
   </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+    $("li").click(function(){
+      var id = $(this).attr("id").split("_")[1];
+        $("#content_"+id).toggle();
+    });
+});
+
+</script>
 
 
 <section>
          <ol>
-         <li> <b>打印字体太小</b>
+         <li id="questions_1" class="questiontitle"> <b>打印字体太小</b>
          </li>
-              <p>解决方式：进入后台，点击打印设置，选择不同单子的字体，字号越大字体越大，如果最大或最小还无法满足客人需求时，通过Admin Tools Lite来进一步修改字体大小</p>
+              <p id="content_1" class="content">解决方式：进入后台，点击打印设置，选择不同单子的字体，字号越大字体越大，如果最大或最小还无法满足客人需求时，通过Admin Tools Lite来进一步修改字体大小</p>
 <hr />
 
-         <li> <b>打印单子显示语言</b>
+         <li id="questions_2" class="questiontitle"> <b>打印单子显示语言</b>
          </li>
-              <p>解决方式：进入后台，打印机设置，选择对应的打印机，语言设置进行选择，主语言为英文，如果需要纯中文，选择第二语言并第二语言设置为Chinese，如果需要双语，则选择主语言及第二语言或第二语言及主语言（此两个选项区别为中文和英文哪个在上哪个在下）</p>
-
-<hr />
-
-         <li> <b>收据打印机会在点击付款时自动打一张收据</b>
-         </li>
-              <p>解决方式：进入后台，设置，Order，将Printer  Receipt Before Settle前面的对勾去掉，然后保存</p>
+              <p id="content_2" class="content">解决方式：进入后台，打印机设置，选择对应的打印机，语言设置进行选择，主语言为英文，如果需要纯中文，选择第二语言并第二语言设置为Chinese，如果需要双语，则选择主语言及第二语言或第二语言及主语言（此两个选项区别为中文和英文哪个在上哪个在下）</p>
 
 <hr />
 
-         <li> <b>需要一张上菜对单</b>
+         <li id="questions_3" class="questiontitle"> <b>收据打印机会在点击付款时自动打一张收据</b>
          </li>
-              <p>解决方式：进入后台，打印机及设备，添加一个Runner（上菜）打印机，然后对应到客人希望出单的打印机，然后进入默认设备，将全局上菜打印机选择新添加的Runner即可</p>
+              <p id="content_3" class="content">解决方式：进入后台，设置，Order，将Printer  Receipt Before Settle前面的对勾去掉，然后保存</p>
+
+<hr />
+
+         <li id="questions_4" class="questiontitle"> <b>需要一张上菜对单</b>
+         </li>
+              <p id="content_4" class="content">解决方式：进入后台，打印机及设备，添加一个Runner（上菜）打印机，然后对应到客人希望出单的打印机，然后进入默认设备，将全局上菜打印机选择新添加的Runner即可</p>
   
   <hr />
 
-         <li> <b>忘记以前输入的POS或IPAD License</b>
+         <li id="questions_5" class="questiontitle"> <b>忘记以前输入的POS或IPAD License</b>
          </li>
-              <p>解决方式：进入后台，打印机及设备，客户端设备，左侧列表列出的就是客人之前使用的License</p>
+              <p id="content_5" class="content">解决方式：进入后台，打印机及设备，客户端设备，左侧列表列出的就是客人之前使用的License</p>
               
     <hr />
 
-         <li> <b>License 输入错误需要更改</b>
+         <li id="questions_6" class="questiontitle"> <b>License 输入错误需要更改</b>
          </li>
-              <p>解决方式：首先删除掉 Admin-printer&divice- App Deveice cofuguration 左侧错误的License 名字，然后按下 ctrl+h 呼叫chrome浏览器设置 选择clear browsing data，时间选择 the begening of time，勾选中cookies and other side data 和 cashed images and files，清理掉浏览器的数据，然后按下 Ctrl + w 关闭该页面，关掉menusifu 服务器，重新启动，再在开始界面重新输入相应的正确license即可。记住顺序切不可颠倒，否则将无法修改成功。</p>   
+              <p id="content_6" class="content">解决方式：首先删除掉 Admin-printer&divice- App Deveice cofuguration 左侧错误的License 名字，然后按下 ctrl+h 呼叫chrome浏览器设置 选择clear browsing data，时间选择 the begening of time，勾选中cookies and other side data 和 cashed images and files，清理掉浏览器的数据，然后按下 Ctrl + w 关闭该页面，关掉menusifu 服务器，重新启动，再在开始界面重新输入相应的正确license即可。记住顺序切不可颠倒，否则将无法修改成功。</p>   
               
   <hr />
 
-         <li> <b>POS客户端输入正确的已有的License名称后提示错误，无法注册客户端license</b>
+         <li id="questions_7" class="questiontitle"> <b>POS客户端输入正确的已有的License名称后提示错误，无法注册客户端license</b>
          </li>
-              <p>解决办法：先确定后台这个名称的license的类型和当前客户端匹配（即类型同为POS或者ipad），再试着等5分钟后应该就可以注册了</p>
+              <p id="content_7" class="content">解决办法：先确定后台这个名称的license的类型和当前客户端匹配（即类型同为POS或者ipad），再试着等5分钟后应该就可以注册了</p>
               
   <hr />
 
-         <li> <b>POS客户端输入正确的已有的License名称后提示错误，无法注册客户端license</b>
+         <li id="questions_8" class="questiontitle"> <b>POS客户端输入正确的已有的License名称后提示错误，无法注册客户端license</b>
          </li>
-              <p>解决办法：先确定后台这个名称的license的类型和当前客户端匹配（即类型同为POS或者ipad），再试着等5分钟后应该就可以注册了</p>  
+              <p id="content_8" class="content">解决办法：先确定后台这个名称的license的类型和当前客户端匹配（即类型同为POS或者ipad），再试着等5分钟后应该就可以注册了</p>  
               
   <hr />
 
-         <li> <b>使用POS后台的还原数据功能后，发现还原后的单数和还原Excel文件不一致</b>
+         <li id="questions_9" class="questiontitle"> <b>使用POS后台的还原数据功能后，发现还原后的单数和还原Excel文件不一致</b>
          </li>
-              <p>解决办法：每次还原数据时，一定要重新备份一份数据后编辑后还原，不可以始终编辑一次导出的文件多次还原！！！一定要提醒用户这一点，否则会造成数据丢失无法恢复的后果。另外也千万不要修改Excel文件中的日期！！最好最次恢复操作前用Menusifu DataManager/Admin Tool Lite备份完整的数据库文件</p>             
+              <p id="content_9" class="content">解决办法：每次还原数据时，一定要重新备份一份数据后编辑后还原，不可以始终编辑一次导出的文件多次还原！！！一定要提醒用户这一点，否则会造成数据丢失无法恢复的后果。另外也千万不要修改Excel文件中的日期！！最好最次恢复操作前用Menusifu DataManager/Admin Tool Lite备份完整的数据库文件</p>             
          </ol>
   </section>
 
